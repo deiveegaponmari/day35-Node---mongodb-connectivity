@@ -12,7 +12,7 @@ web_server.use('/mentor', mentorRouter);
 web_server.use('/student', studentRouter);
 
 web_server.get('/',(request,response)=>{
-    response.send("vanitha");
+    response.send("Node & mongoDB connectivity");
 })
 web_server.listen(process.env.PORT,process.env.HOST,()=>{
     console.log("server started");
